@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+     height: 550px;
+}
+.top{
+    background: url("../images/empty-road-dark-atmosphere.jpg") no-repeat center;
+    background-size: cover;
+}
+.middle{
+    height: 400px;
+    background-color:#eee ;
+    display: flex;
+    flex-flow: column;
+    justify-content:center;
+    align-items:center;
+}
+.middle h2{
+    font-family: "Sofia", cursive;
+    font-size: 50px;
+    color: #473c09;
+}
+.middle p{
+    text-align: center;
+    letter-spacing: 2px;
+    max-width: 61%;
+    font-family: "Poppins", sans-serif;
+}
+.bottom{
+    background: url("../images/2150914456.jpg") no-repeat;
+    background-size: 100% 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bottom .content{
+    width: 600px;
+    height: 200px;
+    background-color: rgba(203, 185, 103, 0.4);
+    border-radius: 20px;
+    transform: skew(-10deg);
+}
+.bottom .content p{
+    text-align: center;
+    font-size: 35px;
+    color: #fff;
+    font-family: "Sofia", cursive;
+}
+.bottom .content p.first{
+    padding-top: 20px;
+}
+.arrow{
+    position: fixed;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background-color: #fff;
+    top: -20px;
+    left: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    cursor: pointer;
+} 
+.arrow i{
+    text-align: center;
+    color: #473c09;
+    font-size: 50px;    
+}
+
+
+
+
