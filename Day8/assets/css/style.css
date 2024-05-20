@@ -1,0 +1,46 @@
+/* Global style */
+body {
+  height: 100vh;
+  font-family: "Open Sans", sans-serif;
+}
+h3 {
+  font-size: 2.3rem;
+}
+p {
+  font-size: 1.2rem;
+  font-weight: 300;
+}
+section {
+  margin-bottom: 300px;
+}
+h2.title {
+  font-size: 3rem;
+}
+/* custom class style */
+.bg-dark {
+  background-color: #373c42 !important;
+}
+/* header style */
+header .row {
+  height: 100vh;
+}
+header h1 {
+  font-size: 5.5rem;
+  color: #373c42 !important;
+}
+header h2 {
+  font-size: 2.9rem;
+  columns: #373c42 !important;
+}
+header .btn{
+    color: #373c42 !important;
+}
+/* team section style */
+#team {
+  height: auto;
+}
+#team .card-img-top {
+  width: 200px;
+  height: 200px;
+  margin: auto;
+}
